@@ -37,7 +37,10 @@ class _SIFormState extends State<SIForm> {
 
   @override
   Widget build(BuildContext context) {
-    TextStyle? textStyle = Theme.of(context).textTheme.titleMedium;
+    TextStyle? textStyle = Theme
+        .of(context)
+        .textTheme
+        .titleMedium;
     return Scaffold(
       // resizeToAvoidBottomInset: false,
       appBar: AppBar(
